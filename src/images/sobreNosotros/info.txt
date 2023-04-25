@@ -1,0 +1,117 @@
+/* texto institucional */  
+
+En 2012, empezamos a transitar una nueva etapa que nos llevó a este presente. Con Gabriela Benac, de vasta trayectoria en la industria quesera, a la cabeza del equipo, la compañía se reconvirtió y potenció su capacidad de crecimiento. 
+
+Hoy, desde nuestra propia fábrica, producimos  80 mil litros de leche fluida diaria, y procesamos más de 50 productos propios en distintas presentaciones. 
+
+Contamos con formato de negocio moderno que se adapta de manera permanente a las necesidades del mercado a través de nuestro sistema de franquicias a lo largo de todo el país. 
+
+Apuntamos al consumidor al que le gusta comer algo rico a un precio absolutamente competitivo. Hemos logrado algo que no muchas marcas logran, que es la real relación precio-calidad. 
+
+Lato Regular / 26px / Interl. 34px / #004694
+/* hay partes del texto que están resaltadas, paso a detallarlas:
+- "Gabriela Benac" - Bold
+- "Hoy, desde nuestra propia fábrica, producimos  80 mil litros de leche fluida diaria, y procesamos más de 50 productos propios en distintas presentaciones." - Bold Italic
+- "formato de negocio moderno" - Regular Italic
+- "sistema de franquicias a lo largo de todo el país." - Bold Italic
+- "consumidor al que le gusta comer algo rico a un precio absolutamente competitivo." - Italic
+- "real relación precio-calidad." - Bold Italic 
+*/
+
+----------------------------
+PREMIOS
+
+"Nuestros Premios a lo largo del tiempo" 
+Lato Reg. / 43px / #004694
+/* la palabra PREMIOS va en Bold */
+
+Expo Suipacha 2022 /* Lato Bold / 27px */
+Queso Fontina, Gouda y Parrillero
+Queso Pategrás, Queso Barra
+Queso Sardo
+
+/* Lato Regular / 20px / Interl. 37px / #004694 */
+
+13ra Cata de Quesos Tandil 2022
+Queso ----
+Queso ---
+Queso ---
+
+(acá no tengo la info, hay que pedirla)
+
+Expo Suipacha 2019
+Queso Cremoso, Gouda, Por Salut, Provolone
+Queso Sardo
+
+12va Cata de Quesos Tandil 2019
+Queso Pategrás
+Queso Fontina
+Maestro Quesero (no tengo el nombre)
+
+Expo Suipacha 2018
+Queso Sardo, Gouda, Pategrás, Romanito Y Provolone
+Queso Saborizado Y Parrillero
+Queso Barra, Reggianito Y Cremoso
+
+11va Cata de Quesos Tandil 2018
+----
+----
+----
+
+Expo Suipacha 2017 
+Queso Port Salut y Queso Barra
+Queso Gouda y Mozzarella
+Queso Pategrás y Provoleta Parrillera
+
+10ma Cata de Quesos Tandil 2017
+Queso Gouda, Romanito, Parrillero y Queso Barra
+Queso Saborizado con finas Hierbas y Pategrás
+Queso Cremoso y Por Salut
+
+Expo Suipacha 2016
+Queso Provolone, Romanito, Sardo y Parrillero
+Queso Gouda y Saborizado
+Queso Pategrás
+
+9na Cata de Quesos Tandil 2016
+Queso Pategrás
+Fontina, Romanito, Provolone, Gouda
+Queso Pategrás Sandwich, Parrillero, Saborizado Finas Hierbas
+Maestro Quesero Luciano Gini
+
+Expo Suipacha 2015
+Queso Barra
+Queso Sardo, Parrillero, Gouda y Saborizado con Hierbas
+Queso Provolone, Romanito y Muzzarella
+
+8va Cata de Quesos Tandil 2015
+Queso Pategrás, Saborizado con Hierbas, Provolone y Gouda
+Queso Cremoso, Barra, Parrillero y Sardo
+Queso Romanito y Fontina
+
+Expo Suipacha 2014
+Dulce de Leche Repostero
+Queso Barra, Pategrás y Dulce de Leche Familiar
+Queso Saborizado
+Queso Fontina
+
+7ma Cata Tandil 2014
+Queso Cremoso 
+Queso Pategrás, Fontina, Saborizado con Hierbas, Parrillero, Gouda y Provolone
+Queso Romanito
+Queso Por Salut, Sardo y Queso Barra
+
+Expo Suipacha 2013
+Queso Cremoso
+Dulce de Leche Repostero
+
+6ta Cata Tandil 2013
+Queso Pategrás y Queso Gouda
+Queso Romanito
+
+REFERENCIAS /* Lato Bold / 24px / #004694 */
+
+Expo Suipacha / Cata de Quesos Tandil /* Lato Bold / 20 px / #004694 */
+1er Puesto / 2do Puesto / 3er Puesto / Gran Campeón / Mejor Queso del Año /* 
+
+

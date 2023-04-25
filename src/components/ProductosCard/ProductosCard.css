@@ -1,0 +1,37 @@
+.productosCard {
+    max-width: 250px;
+    height: 420px;
+    padding: 1em;
+    border-radius: var(--border-radius);
+    color: var(--title);
+    border: 2px solid var(--title);
+
+}
+
+.productosCard__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.productosCard__img {
+    height: 190px;
+    text-align: center;
+}
+
+.productosCard__details {
+    padding: .5rem;
+}
+
+.productosCard__img-img {
+    height: 100%;
+}
+
+.productosCard__details-title {
+    display: inline-block;
+    z-index: 2;
+    border-radius: var(--border-radius);
+    font-weight: bold;
+    color: var(--bg);
+}

@@ -1,0 +1,80 @@
+.picadas__banner {
+    width: 100%;
+}
+
+.picadas__disclaimer {
+    font-size: 12.5px;
+    text-align: center;
+    color: var(--title)
+}
+
+.picada__card {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+.picada__list>li {
+    color: #777;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.picada__img,
+.picada__info {
+    padding: 0 1.5rem;
+}
+
+.picada__img {
+    text-align: center;
+}
+
+.picada__info>p {
+    color: #777;
+    font-size: 12.5px;
+    padding-bottom: 2rem;
+}
+
+.picada__info {
+    margin-bottom: 2rem;
+}
+
+.subtitle__picadas {
+    font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: lighter;
+}
+
+.Picada__bottom {
+    text-align: center;
+}
+
+.picada__precios>div {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--bg-alt);
+    border-radius: var(--border-radius);
+    color: var(--bg);
+}
+
+@media screen and (min-width: 900px) {
+
+    .picada__card {
+        display: flex;
+    }
+
+    .picada__info {
+        width: 35%;
+    }
+
+    .picada__precios {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+    }
+}

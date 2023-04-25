@@ -1,0 +1,36 @@
+.listaprecios_container{
+    margin-bottom: 10rem;
+}
+
+.listaprecios__table {
+    width: 100%;
+    border: 0;
+    border-radius: var(--border-radius);
+}
+
+.listaprecios__table tbody tr td,
+.listaprecios__table thead tr td {
+    height: 2.5rem;
+    border: 0;
+}
+
+.listaprecios__table thead tr td:hover {
+    cursor: pointer;
+    color: var(--title-alt);
+    transition: all var(--speed);
+}
+
+.listaprecios__table tbody tr:nth-child(even) {
+    background-color: #dfeaff;
+}
+
+.searchBar {
+    width: 100%;
+    font-size: large;
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    padding: .5rem;
+    box-shadow: 10px 10px 119px -65px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow: 10px 10px 119px -65px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 10px 10px 119px -65px rgba(0, 0, 0, 0.74);
+}

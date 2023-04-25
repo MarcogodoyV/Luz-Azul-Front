@@ -1,0 +1,119 @@
+.main {
+    overflow: hidden;
+}
+
+.aboutSection {
+    background-size: 100px 100px;
+}
+
+.aboutInfo {
+    position: relative;
+    left: 66%;
+    width: 30%;
+    bottom: 740px;
+}
+
+.aboutTitle {
+    font-weight: 900;
+    margin: .5rem 0;
+    font-size: 40px;
+}
+
+.aboutText {
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
+
+.productosTitle {
+    /* position: relative;
+    top: 200px; */
+    color: var(--text-color-alt);
+    font-size: 40px;
+    text-align: center;
+}
+
+.SectionimgProducto {
+    position:relative;
+    left: 20%;
+    top: 220px;
+    width: 80%;
+}
+
+.imgProducto {
+    padding: .5rem 1.5rem;
+    height: 200px;
+}
+
+.imgSlide {
+    /* width: 300px; */
+}
+
+ .semiBlurText{
+    background: #004694;
+    background: linear-gradient(to right, #004694 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.swiper-button {
+    position: absolute;
+    top: 35%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.image-swiper-button-prev,
+.image-recetas-swiper-button-prev {
+left: -10%;
+}
+.image-swiper-button-next,
+.image-recetas-swiper-button-next {
+right: -10%;
+}
+
+.swiper-button-disabled {
+    opacity: 0.5;
+  }
+/*
+.blurText {
+    filter: blur(2px);
+} */
+
+/* .image-swiper-button-next,
+.image-swiper-button-prev{
+    position: relative;
+    bottom: 200px;
+    display: inline-block;
+}
+
+.image-swiper-button-next {
+    left: 40px;
+}
+
+.image-swiper-button-prev {
+    left: 950px;
+} */
+
+/* .swiper-button-next {
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    width: 45px;
+    height: 45px;
+    transform: translateY(-50%);
+  }
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    width: 45px;
+    height: 45px;
+    transform: translateY(-50%);
+    margin-top: 0px;
+  } */
+
+/* titulo "Sobre Nosotros" - Lato Black - 60px - #fffffff
+texto (hay que armarlo) - Lato regular - 22px - separación 35px - #fffffff
+co */

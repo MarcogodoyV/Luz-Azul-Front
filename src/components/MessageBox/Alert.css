@@ -1,0 +1,24 @@
+.alert {
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    padding: .7rem 2rem;
+    font-weight: bolder;
+    color:rgba(32, 32, 32, 0.705);
+    border-radius: var(--border-radius);
+    
+}
+
+.hideAlert {
+    animation: hideButton .5s forwards;
+}
+
+@keyframes hideButton {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }

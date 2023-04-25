@@ -1,0 +1,38 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.menu {
+    background-color: var(--bg);
+}
+
+.adminContainer {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.listaMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listaMenu li {
+    display: inline-block;
+    padding: .6rem 1.2rem;
+    background-color: var(--bg-green);
+    color: var(--bg);
+    font-weight: bold;
+    margin: 2rem auto;
+    width: 90%;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.listaMenu li:hover {
+    color: #005bc4;
+    background-color: #c5f34f ;
+    cursor: pointer;
+    transition: .2s all;
+}

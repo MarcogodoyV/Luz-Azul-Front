@@ -1,0 +1,15 @@
+.prensa_articulo{
+    display: block;
+}
+
+@media screen and (min-width: 1070px) {
+    .prensa_articulo{ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;  
+        }
+
+    .prensa_img{
+        height: 90%;
+    }
+}

@@ -1,0 +1,17 @@
+.tyc__container {
+    line-height: 1.6rem;
+    color: #777;
+}
+
+.tyc__container>p {
+    margin-bottom: 3rem;
+}
+
+.tyc__container>ul {
+    padding: 0 1rem;
+}
+
+.tyc__container>ul>li {
+    list-style-type: disc;
+    margin-top: 1rem;
+}

@@ -1,0 +1,23 @@
+.materialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.btnMateriales {
+    margin: 1rem 0;
+    font-weight: bolder;
+    color: var(--text-color-alt);
+    padding: .8rem 3rem;
+    display: block;
+    width: 70%;
+    outline: var(--text-color-alt) solid; 
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.btnMateriales:hover {
+    background-color: rgba(0, 0, 255, 0.116);
+}

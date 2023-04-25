@@ -1,0 +1,36 @@
+.franquiciado__container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 55px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.informacionUtil_subtitle {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.franquiciadoCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    background-position: center;
+    height: 286px;
+    width: 230px;
+    border-radius: var(--border-radius);
+}
+
+.franquiciadoCard>p {
+    text-align: center;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.franquiciadoCard:hover>p {
+    text-decoration: underline;
+    transition: all var(--speed);
+}

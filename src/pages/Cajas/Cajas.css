@@ -1,0 +1,53 @@
+.cajas__banner {
+    width: 100%;
+}
+
+.cajas__subtitle {
+    font-size: 16px;
+    text-align: center;
+    color: var(--title);
+    padding-top: 0;
+}
+
+.cajas__card {
+    margin-bottom: 3rem;
+}
+
+.cajas__list>li {
+    color: #777;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.cajas__img,
+.cajas__info {
+    padding: 0 1rem;
+}
+
+.cajas__img {
+    max-width: 394px;
+}
+
+.cajas__info>p {
+    color: #777;
+    font-size: 12.5px;
+
+}
+
+.subtitle__cajas {
+    font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.cajas__bottom {
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .cajas__card {
+        display: flex;
+    }
+}

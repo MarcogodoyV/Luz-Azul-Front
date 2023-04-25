@@ -1,0 +1,25 @@
+.atajos {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.atajos__link-container {
+    display: flex;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-light);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.atajos li {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .atajos {
+        display: flex;
+        justify-content: space-around;
+    }
+}

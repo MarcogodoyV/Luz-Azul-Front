@@ -1,0 +1,11 @@
+.sucursales__btns {
+    padding: 1rem;
+}
+
+.sucursales__container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 45px;
+    margin-bottom: 3rem;
+}

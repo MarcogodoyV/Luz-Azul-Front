@@ -1,0 +1,24 @@
+.productDetail__table {
+    border-collapse: collapse;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.productDetail__table thead tr {
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    color: var(--text-color);
+    background-color: var(--bg);
+    text-align: center;
+}
+
+.productDetail__table tbody tr td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.productDetail__table tfoot tr td {
+    padding: 1rem;
+    font-size: small;
+    line-height: 1;
+}

@@ -1,0 +1,30 @@
+.contacto_info{
+    color: var(--bg);
+    margin: 2rem 0;
+}
+
+.contacto__body {
+    display: block;
+}
+
+.contacto__subtitle {
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.section__contacto{
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 900px) {
+    .contacto__body {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contacto__body>div {
+        flex: 1;
+        padding: 1rem;
+    }
+}

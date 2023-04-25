@@ -1,0 +1,57 @@
+.infobox {
+    border: 1px solid #DDD;
+    margin-bottom: .5rem;
+}
+
+.infobox-main {
+    background-color: var(--bg);
+}
+
+.infobox-boxtitle {
+    padding: 1rem;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.infobox-boxtitle:hover {
+    cursor: pointer;
+    color: var(--title-alt);
+    transition: color var(--speed);
+}
+
+.infobox-innerpanel {
+    position: relative;
+    max-height: 0;
+    overflow: hidden;
+    transform: scaleY(1);
+    transition: all var(--speed-slow);
+}
+
+.innerpanel-active {
+    max-height: 100vh;
+    transform-origin: top;
+    transition: all var(--speed-slow);
+}
+
+.infobox-innerpanel>p {
+    color: #777;
+    padding: 1rem;
+    font-size: .9rem;
+}
+
+.description {
+    margin-bottom: 3rem;
+}
+
+.infobox-arrow {
+    width: 20px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(269deg) brightness(103%) contrast(103%);
+    transform: rotate(180deg);
+    transition: all var(--speed);
+}
+
+.arrowActive {
+    transform: rotate(0deg);
+    transition: all var(--speed);
+}

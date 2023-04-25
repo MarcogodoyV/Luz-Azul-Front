@@ -1,0 +1,41 @@
+.articulo {
+    display: block;
+    margin-bottom: 3em;
+}
+
+.articulo__img-container {
+    position: relative;
+    width:100%; /* 427x334px */
+    height: 300px;
+    overflow: hidden;
+}
+
+.articulo__img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.articulo__btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.prensaParrafo {
+    color: var(--text-color-alt);
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    .articulo__img-container {
+    position: relative;
+    width:400px; /* 427x334px */
+    height: 300px;
+    overflow: hidden;
+    }
+
+}

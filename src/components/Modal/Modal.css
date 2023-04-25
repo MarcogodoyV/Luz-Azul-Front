@@ -1,0 +1,49 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 10;
+}
+
+.modalStyle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--text-color);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    width: 70%;
+    max-width: max-content;
+    z-index: 1000;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__close-modal {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .4rem 1rem;
+    border-radius: var(--border-radius);
+    margin: .7rem;
+    margin-left: 0;
+    align-self: end;
+    margin-right: .5rem;
+    border: 0;
+}
+
+.img__style {
+    padding: .5em auto;
+    max-width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.img__style img {}

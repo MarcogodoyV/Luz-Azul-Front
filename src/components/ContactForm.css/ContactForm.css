@@ -1,0 +1,31 @@
+.contact__form {
+    margin-bottom: 3rem;
+}
+
+.contact_label {
+    color: var(--title);
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact_label>input {
+    height: 2rem;
+}
+
+.contact__input {
+    width: 100%;
+    background-color: var(--bg-alt);
+    border: 0;
+    border-radius: var(--border-radius);
+    font-size: large;
+}
+
+.contact__input:focus,
+.contact__input:active {
+    border: var(--border);
+    outline: none;
+}
+
+.field {
+    margin-bottom: 1.3rem;
+}

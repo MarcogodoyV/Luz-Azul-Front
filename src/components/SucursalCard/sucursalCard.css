@@ -1,0 +1,39 @@
+.sucursalCard__card {
+    background-color: var(--bg);
+    max-width: 350px;
+    padding: 1em;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}
+
+.sucursalCard__datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sucursalCard__datos-provincia {
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.sucursalCard__datos-direccion {
+    margin-bottom: .5em;
+    min-height: 3rem;
+}
+
+.sucursalCard__btn {
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+.sucursalCard__btns-container {
+    display: flex;
+    height: fit-content;
+}
+
+.wsIcon {
+    width: 30px;
+}

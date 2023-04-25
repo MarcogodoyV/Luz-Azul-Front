@@ -1,0 +1,60 @@
+.InicioCard {
+    display: inline-block;
+    background-color: var(--bg);
+    margin: 1rem;
+    height: 180px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: var(--border-radius);
+}
+
+.InicioCard-inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.InicioCard-inner>div {
+    flex: 1;
+    padding: .7rem;
+}
+
+.InicioCard__div-img {
+    width: 144px;
+}
+
+.InicioCard-img {
+    border-radius: var(--border-radius);
+    width: 144px;
+    height: 144px;
+}
+
+.InicioCard-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.InicioCard__title {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.InicioCard__link {
+    align-self: flex-end;
+    padding-right: 1rem;
+    font-size: .95rem;
+}
+
+.InicioCard-inner:hover p {
+    color: var(--title-alt);
+    transition: all var(--speed);
+}
+
+@media screen and (min-width: 450px) {
+    .InicioCard__title {
+        font-size: 2rem;
+    }
+}
